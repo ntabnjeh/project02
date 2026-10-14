@@ -1,0 +1,25 @@
+
+*, *::before, *::after{
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+
+}
+.content{
+box-sizing: content-box;
+width: 300px;
+
+background-color: blue;
+padding:50px;
+border: 15px solid hotpink;
+/*margin:20px;*/
+}
+
+.border{
+    box-sizing: border-box;
+    width: 300px;
+    background-color: pink;
+    padding: 50px;
+    border: 20px solid rgb(8, 167, 235);
+
+}
